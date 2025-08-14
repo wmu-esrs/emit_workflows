@@ -1,0 +1,9 @@
+L2a test date:
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.001/EMIT_L2A_RFL_001_20240826T072943_2423905_012/EMIT_L2A_RFL_001_20240826T072943_2423905_012.nc
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.001/EMIT_L2A_RFL_001_20240424T083213_2411506_021/EMIT_L2A_RFL_001_20240424T083213_2411506_021.nc
+L2b test data:
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.001/EMIT_L2A_RFL_001_20240826T072943_2423905_012/EMIT_L2A_RFL_001_20240826T072943_2423905_012.nc
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.001/EMIT_L2A_RFL_001_20240424T083213_2411506_021/EMIT_L2A_RFL_001_20240424T083213_2411506_021.nc
+
+
+

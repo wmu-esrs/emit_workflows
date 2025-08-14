@@ -1,0 +1,30 @@
+## crosstrack edge masking configuration
+l2a: "../data/input/l2a"
+l2a_edge_masked: "../data/output/l2a_edge_masked"
+log_csv_path_l2a: "../data/output/l2a_edge_masked/l2a_edge_mask_log.csv"
+l2b: "../data/input/l2b"
+l2b_edge_masked: "../data/output/l2b_edge_masked"
+log_csv_path_l2b: "../data/output/l2b_edge_masked/l2b_edge_mask_log.csv"
+edge_width: 5
+num_workers: 2
+max_retries: 3
+
+## crosstrack edge anomaly evaluation (plotting)
+# input l2a folder is same as above
+output_folder_l2a_edge_anomaly_plots: "../data/output/l2a_edge_anomaly_plots"
+
+## spectral_abundance_composite production configuration
+# input is l2b_edge_masked folder above
+mineral_grouping_matrix_csv: "../data/input/mineral_grouping_matrix_20230503.csv"
+spectral_abundance_composites: "../data/output/spectral_abundance_composites"
+# Would you also like l2b products (Min ID and band depth for group1 and 2)
+# to be saved in tiff (COG) format
+convert_L2b_products_to_geotiff: True
+
+## convert to ENVI configuration
+# this script also does orthorectification and removing
+## description so that tetracorder does not complain
+l2a_envi: "../data/output/l2a_envi"
+# input folder is same as l2a_edge_masked
+log_convert_to_envi: "../data/output/l2a_envi/log_convert_to_envi.log"
+log_convert_to_envi_resource_use: "../data/output/l2a_envi/log_convert_to_envi_resource_use.log"  

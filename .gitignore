@@ -1,0 +1,7 @@
+# Ignore all files ending with the following extensions
+*.nc
+*.tif
+*.crf
+# output files but keep the folder itself
+data/output/*
+!data/output/.gitkeep
