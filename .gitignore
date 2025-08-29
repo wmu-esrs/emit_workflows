@@ -2,6 +2,7 @@
 *.nc
 *.tif
 *.crf
+*.geojson
 # output files but keep the folder itself
 data/output/*
 !data/output/.gitkeep
